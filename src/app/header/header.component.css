@@ -1,0 +1,40 @@
+button{
+    
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:  10px 30px 20px 40px;
+}
+button:hover{
+    background-color: #E4C6BD;
+}
+
+.header{
+    max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    display: block;
+    
+}
+.active{
+    background-color: #E4C6BD;
+}
+.buttons{
+    float: right;
+    position: relative;
+    font-family: cursive;
+    display: flex;
+    right: 1%;
+    top: 10%;
+}
+img{
+    float: left;
+    position: relative;
+    margin: 15px;
+    height: 50px;
+    cursor: pointer;
+}
