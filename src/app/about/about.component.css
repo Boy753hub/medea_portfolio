@@ -1,13 +1,20 @@
 .BACKGROUND{
+    height: auto;
+    }
+h1{
+    margin-left: 10%;
+}
+.background_picture{
     background-image: url('src/assets/zpictures/web-gcacdd9db8_1920.jpg');
-    height: 800px;
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
     display:block;
     top: 73px;
     position: absolute;
-    }
-h1{
-    margin-left: 10%;
+    color: #FFF;
+		min-height: 80vh;
+		display: flex;
+		align-items: center;
+		background-size: cover;
 }
