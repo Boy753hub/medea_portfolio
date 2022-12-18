@@ -1,4 +1,5 @@
 a{
+	
     border: none;
     color: rgb(0, 0, 0);
     padding: 25px 32px;
@@ -9,7 +10,7 @@ a{
     border-radius:  10px 30px 20px 40px;
 }
 a:hover{
-    background-color: #E4C6BD;
+    background-color: #AD8E85;
 }
 
 .header{
@@ -38,7 +39,7 @@ img{
     cursor: pointer;
 }
 .phone_tab{
-	right: 0;
+	
 	height: 100%;
 	width: 100%;
 	position: absolute;

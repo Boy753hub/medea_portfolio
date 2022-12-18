@@ -5,6 +5,7 @@ footer{
     position: absolute;
     bottom: 0;
     margin-top: auto;
+    position: fixed;
 
 }
 .footer_content{

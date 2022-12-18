@@ -1,20 +1,43 @@
-.BACKGROUND{
+.BACKGROUND {
     height: auto;
-    }
-h1{
+    margin-bottom: 120px
+  }
+  
+  h1 {
     margin-left: 10%;
-}
-.background_picture{
+  }
+  
+  .background_picture {
     background-image: url('src/assets/zpictures/web-gcacdd9db8_1920.jpg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    display:block;
-    top: 73px;
-    position: absolute;
+    /* remove position and top properties */
     color: #FFF;
-		min-height: 80vh;
-		display: flex;
-		align-items: center;
-		background-size: cover;
-}
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .pictures_medea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 3;
+    /* add a margin-top property */
+    margin-top: 40px;
+    gap: 2rem;
+    align-items: center;
+    width: calc(100% - 400px - 400px);
+    margin: 0 auto;
+    align-items: center;
+  
+  }
+  
+  .images_head {
+    min-width: 200px;
+    min-height: 200px;
+    background-color: black;
+  }
+  
