@@ -9,10 +9,10 @@
      <div class="menu-btn"  (click)="humburgerclicked()" [ngClass]="{open: clicked}" >
         <div class="menu-btn__burger"></div>
       </div>
-</div >
+
 
     
-    <div class="phone_tab" *ngIf="clicked" [ngClass]="{open: clicked}">
+    <div class="phone_tab" [ngClass]="{open: clicked}">
         <div class="phone_buttons">
             <a routerLinkActive="active" routerLink="/about" (click)="humburgerclicked()">About</a>
             <a routerLinkActive="active" routerLink="/services" (click)="humburgerclicked()">Services</a>
@@ -20,3 +20,4 @@
             <a routerLinkActive="active" routerLink="/contact" (click)="humburgerclicked()">Contact</a>
         </div>
     </div>
+</div >
