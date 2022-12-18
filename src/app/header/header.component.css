@@ -61,7 +61,6 @@ img{
   .phone_tab {
 	position: fixed;
 	right: -100%;
-	top: 70px;
 	gap: 0;
 	flex-direction: column;
 	background-color: #e4c6bd98;
@@ -69,6 +68,7 @@ img{
 	height: 100%;
 	text-align: center;
 	transition: 0.3s;
+	padding-top: 75px;
   }
   
   .phone_tab.open {
