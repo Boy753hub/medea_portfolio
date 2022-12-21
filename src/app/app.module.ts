@@ -9,6 +9,8 @@ import { CameraComponent } from './camera/camera.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { CaruselComponent } from './about/carusel/carusel.component';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +20,12 @@ import { FooterComponent } from './footer/footer.component';
     CameraComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CaruselComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

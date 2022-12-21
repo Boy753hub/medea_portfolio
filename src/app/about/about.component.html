@@ -2,22 +2,25 @@
     <div class="background_picture"> 
             <h1></h1>
     </div>
-    <div class="pictures_medea">
-        <article class="images_head">
-            <div class="image"></div>
-        </article>
-        <article class="images_head">
-            <div class="image"></div>
-        </article >
-        <article class="images_head">
-            <div class="image"></div>
-        </article>
-        <article class="images_head">
-            <div class="image"></div>
-        </article>
-        <article class="images_head">
-            <div class="image"></div>
-        </article>
+    <div class="imgcontainer">
+        
+        <div class="gallery" >
+            <div class="pictures_medea">
+                <article class="images_head" *ngFor="let image of _albums; let i=index">
+                    <div class="image">  <img src="{{image.thumb}}" (click)="open(i)" /></div>
+                </article>
+            </div>
+        </div>
     </div>
+
 </div>
-    
+<div class="carusel_background" [ngClass]="{open: carusel_opened}">
+        <div class="x" (click)="close()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+         </div>
+        <div class="carusel_component">
+               <app-carusel [_albums]="_albums" [ricxvi]="ricxvi"></app-carusel>
+        </div>
+    </div>
