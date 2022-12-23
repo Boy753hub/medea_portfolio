@@ -69,6 +69,7 @@ img{
 	text-align: center;
 	transition: 0.3s;
 	padding-top: 75px;
+	z-index: 1;
   }
   
   .phone_tab.open {

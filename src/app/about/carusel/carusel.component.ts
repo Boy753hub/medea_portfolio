@@ -16,6 +16,7 @@ export class CaruselComponent implements OnInit , OnChanges{
   ngOnChanges(changes: SimpleChanges) {
     if (changes['ricxvi']) {
       this.selectedIndex = changes['ricxvi'].currentValue;
+      this.ricxvi = this.selectedIndex;
     }
   }
 
