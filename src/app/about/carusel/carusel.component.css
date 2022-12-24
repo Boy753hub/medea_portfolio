@@ -11,13 +11,10 @@
 }
 
 .carousel-container img {
-  display: none;
   border-radius: 15px;
 }
 
-.carousel-container h1 {
-  display: none;
-}
+
 
 .carousel-container img.image-active {
   display: block;

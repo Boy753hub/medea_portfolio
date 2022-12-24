@@ -107,7 +107,6 @@
   position: fixed;
   top: 0px;
   z-index: 3;
-  display: none;
 }
 .carusel_background.open{
   display: block;

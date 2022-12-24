@@ -1,11 +1,10 @@
 <div class="carousel_container_toggle">
     <div class="carousel-container">
-     <table  *ngFor="let image of _albums; let i = index" >
+     <table>
        <thead class="table-light">
         
          <tr>
-           <img  src="{{image.src}}" alt="error"
-           [ngClass]="{'image-active' : selectedIndex === i}">
+           <img  src="{{imgSrc}}" alt="error">
  
          </tr>
              
